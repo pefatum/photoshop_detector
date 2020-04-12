@@ -1,1 +1,1 @@
-# photoshop_detector
+A web application to upload photos to protect them against photoshopping.

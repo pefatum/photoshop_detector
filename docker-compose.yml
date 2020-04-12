@@ -1,0 +1,15 @@
+version: '3.5'
+services:
+ web_dev:
+  build: .
+  ports:
+   - "5000:5000"
+  volumes:
+   - .:/photoshop_detector
+  environment:
+   - ENV=development
+   - PORT=5000
+networks:
+ default:
+  name: web_dev
+
